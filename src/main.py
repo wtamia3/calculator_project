@@ -8,6 +8,7 @@ def main():
         return
 
     equation = ' '.join(sys.argv[1:])
+    print(f"Input equation: {equation}")  # Debug print
     
     calculator = Calculator()
     try:
